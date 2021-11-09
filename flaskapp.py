@@ -15,10 +15,6 @@ from app.models import Banner, User
 import cv2
 import boto3
 
-s3 = boto3.client('s3',
-                    aws_access_key_id='AKIAUFIMOWUQ4W7EYMWM',
-                    aws_secret_access_key= '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')
-
 BUCKET_NAME='bannerapp'
 
 
